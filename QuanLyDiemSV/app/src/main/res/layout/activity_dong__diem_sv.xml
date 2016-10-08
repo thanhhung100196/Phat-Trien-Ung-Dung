@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dong__diem_sv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shadow.quanlydiemsv.Dong_DiemSV">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Thuong KI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:id="@+id/textView14"
+            android:layout_alignBaseline="@+id/textView13"
+            android:layout_alignBottom="@+id/textView13"
+            android:layout_toRightOf="@+id/textView13"
+            android:layout_toEndOf="@+id/textView13" />
+
+        <TextView
+            android:text="Giua KI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:layout_alignBaseline="@+id/textView14"
+            android:layout_alignBottom="@+id/textView14"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Cuoi Ki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="78dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginTop="19dp"
+            android:id="@+id/textView17" />
+
+        <TextView
+            android:text="Trung Binh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView17"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView18" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="50dp"
+            android:id="@+id/txtMonHoc" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtThuongKi"
+            android:layout_alignBaseline="@+id/txtMonHoc"
+            android:layout_alignBottom="@+id/txtMonHoc"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignStart="@+id/textView14" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtGiuaKi"
+            android:layout_alignBaseline="@+id/txtThuongKi"
+            android:layout_alignBottom="@+id/txtThuongKi"
+            android:layout_alignLeft="@+id/textView16"
+            android:layout_alignStart="@+id/textView16" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txtCuoiKi"
+            android:layout_alignLeft="@+id/textView18"
+            android:layout_alignStart="@+id/textView18"
+            android:id="@+id/txtTrungBinh" />
+
+        <TextView
+            android:text="Môn học"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:layout_alignBaseline="@+id/textView17"
+            android:layout_alignBottom="@+id/textView17"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCuoiKi"
+            android:layout_alignBaseline="@+id/txtGiuaKi"
+            android:layout_alignBottom="@+id/txtGiuaKi"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_alignStart="@+id/textView17" />
+
+    </RelativeLayout>
+</RelativeLayout>
